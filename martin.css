@@ -5,9 +5,8 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 0px) and (max-width: 10000px) {
-  /* Styles that apply to ALL screen widths */
-  body {
+
+  html,body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -52,8 +51,7 @@
     height: auto;
   }
 
-  /* Add your universal styles here */
-}
+ 
 
 
 
@@ -95,6 +93,7 @@ navbar{
     height: 100vh;
     background-repeat:no-repeat;
     background-position:center;
+    overflow-x: hidden;
 }
 .main h3 {
     font-size:clamp(2.5rem, 4.2rem + 0.5vw, 4.2rem);
@@ -109,8 +108,8 @@ navbar{
 }
 .main .bt1{
     font-size:inherit;
-     height: 3.43em;
-    width: 8.43em;
+     height: 3.3em;
+    width: 8em;
     background-color:red ;
     color: white;
     outline: none;
@@ -130,8 +129,8 @@ section div a{
 }
 .main .bt2{
     font-size: inherit;
-    height: 3.43em;
-    width: 9.68em;
+    height: 3.3em;
+    width: 9em;
     background-color:transparent ;
     color:red;
     outline: none;
@@ -259,8 +258,8 @@ section div a{
 }
 .about .bt1{
    font-size: inherit;
-    width: 9.5em;
-    height: 3.4em;
+    width: 9em;
+    height: 3.3em;
     outline: none;
     border: none;
     color: white;
@@ -274,8 +273,8 @@ section div a{
 }
 .about .bt2{
     font-size: inherit;
-    width: 9.5em;
-    height: 3.4em;
+    width: 9em;
+    height: 3.3em;
     outline: none;
     border: none;
     color: black;
