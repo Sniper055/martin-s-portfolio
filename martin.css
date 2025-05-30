@@ -1,0 +1,288 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 0px) and (max-width: 10000px) {
+  /* Styles that apply to ALL screen widths */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Add your universal styles here */
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+h1,h3{
+    
+    font-family: 'Poppins', sans-serif;
+}
+navbar{
+    background-color:white;
+}
+.navbar .nav-link{
+    color:black;
+    font-size: 1rem;
+    font-weight:700 ;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: end;
+}
+.navbar .nav-link:hover{
+    color: white;
+    background-color: black;
+
+}
+.navbar-brand{
+    font-size: 1.2rem;
+    background-color: white;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.main{
+    /*background-image: url(./images/IMG_0260.jpg);*/
+    background-size:20vw;
+    width: 100%;
+    height: 100vh;
+}
+.main h3 {
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+.main h6{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid red;
+    width: 520px;
+}
+.main .bt1{
+    height: 55px;
+    width: 135px;
+    background-color:red ;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+section div a{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.main .bt2{
+    height: 55px;
+    width: 155px;
+    background-color:transparent ;
+    color:red;
+    outline: none;
+    border: 1px solid red;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color: black;
+}
+.about img{
+    box-shadow: 15px 19px 33px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 15px 19px 33px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 19px 33px -9px rgba(0,0,0,0.75);
+}
+.progress{
+    background-color: whitesmoke;
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+.pro-value1{
+    animation: load1 3s normal
+    forwards;
+    border-radius: 50px;
+    background-color:black;
+    height:25px ;
+    width: 0;}
+.pro-value2{
+    animation: load2 3s normal
+    forwards;
+    border-radius: 50px;
+    background-color:black;
+    height:25px ;
+    width: 0;}
+.pro-value3{
+    animation: load3 3s normal
+    forwards;
+    border-radius: 50px;
+    background-color:black;
+    height:25px ;
+    width: 0;}
+.pro-value4{
+    animation: load4 3s normal
+    forwards;
+    border-radius: 50px;
+    background-color:black;
+    height:25px ;
+    width: 0;
+}
+.pro-value5{
+    animation: load5 3s normal
+    forwards;
+    border-radius: 50px;
+    background-color:black;
+    height:25px ;
+    width: 0;
+}
+.pro-value6{
+    animation: load6 3s normal
+    forwards;
+    border-radius: 50px;
+    background-color:black;
+    height:25px ;
+    width: 0;
+}
+.progress p{
+    color: white;
+    
+    padding: 5px;
+    
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+     }
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+     }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 35%;
+     }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+     }
+    }
+@keyframes load5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 5%;
+     }
+    }
+@keyframes load6{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 5%;
+     }
+}
+.about .bt1{
+    width: 135px;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.about .bt1:hover{
+   background-color: white; 
+   color: black;
+}
+.about .bt2{
+    width: 120px;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    }
+
+    .about .bt2:hover{
+   background-color:black; 
+   color: white;}
+
+.card{
+    border: none;
+    outline: none;
+}
+.card p{   
+    color:black;
+}
+
+.services .card{
+    box-shadow: -10px 26px 35px -14px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px 26px 35px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 26px 35px -14px rgba(0,0,0,0.75);
+}
+.portfolio .card{
+    box-shadow: -10px 26px 35px -14px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px 26px 35px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 26px 35px -14px rgba(0,0,0,0.75);
+}
+.contact{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+div .button a{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+footer p{
+    font-size: 14px;
+    color: #888;
+}
