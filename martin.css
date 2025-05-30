@@ -110,7 +110,7 @@ navbar{
 .main .bt1{
     font-size:inherit;
      height: 3.3em;
-    width: 8em;
+    width: 6em;
     background-color:red ;
     color: white;
     outline: none;
@@ -131,7 +131,7 @@ section div a{
 .main .bt2{
     font-size: inherit;
     height: 3.3em;
-    width: 9em;
+    width: 8em;
     background-color:transparent ;
     color:red;
     outline: none;
@@ -259,7 +259,7 @@ section div a{
 }
 .about .bt1{
    font-size: inherit;
-    width: 9em;
+    width: 7em;
     height: 3.3em;
     outline: none;
     border: none;
@@ -274,7 +274,7 @@ section div a{
 }
 .about .bt2{
     font-size: inherit;
-    width: 8em;
+    width: 6em;
     height: 3.3em;
     outline: none;
     border: none;
