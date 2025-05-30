@@ -11,7 +11,36 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+      overflow-x:hidden;
   }
+
+    body {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.7rem;
+  }
+}
 
   .container {
     padding: 20px;
@@ -30,7 +59,6 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
 }
 h1,h3{
     
@@ -53,7 +81,7 @@ navbar{
 
 }
 .navbar-brand{
-    font-size: 1.2rem;
+    font-size: clamp(0.8rem, 1.2rem + 0.5vw, 1.2rem);
     background-color: white;
     font-weight: 800;
     text-decoration: none;
@@ -65,21 +93,24 @@ navbar{
     background-size:20vw;
     width: 100%;
     height: 100vh;
+    background-repeat:no-repeat;
+    background-position:center;
 }
 .main h3 {
-    font-size: 4.2rem;
+    font-size:clamp(2.5rem, 4.2rem + 0.5vw, 4.2rem);
     font-weight: 700;
 }
 .main h6{
-    font-size: 1.2rem;
+    font-size:clamp(0.8rem, 1.2rem + 0.5vw, 1.2rem);
     text-transform: uppercase;
     line-height: 1;
     border-bottom: 3px solid red;
     width: 300px;
 }
 .main .bt1{
-    height: 55px;
-    width: 135px;
+    font-size:inherit;
+     height: 3.43em;
+    width: 8.43em;
     background-color:red ;
     color: white;
     outline: none;
@@ -98,8 +129,9 @@ section div a{
     text-decoration-line: none;
 }
 .main .bt2{
-    height: 55px;
-    width: 155px;
+    font-size: inherit;
+    height: 3.43em;
+    width: 9.68em;
     background-color:transparent ;
     color:red;
     outline: none;
@@ -114,6 +146,7 @@ section div a{
     box-shadow: 15px 19px 33px -9px rgba(0,0,0,0.75);
 -webkit-box-shadow: 15px 19px 33px -9px rgba(0,0,0,0.75);
 -moz-box-shadow: 15px 19px 33px -9px rgba(0,0,0,0.75);
+    border-radius:10px;
 }
 .progress{
     background-color: whitesmoke;
@@ -225,8 +258,9 @@ section div a{
      }
 }
 .about .bt1{
-    width: 135px;
-    height: 50px;
+   font-size: inherit;
+    width: 9.5em;
+    height: 3.4em;
     outline: none;
     border: none;
     color: white;
@@ -239,8 +273,9 @@ section div a{
    color: black;
 }
 .about .bt2{
-    width: 120px;
-    height: 50px;
+    font-size: inherit;
+    width: 9.5em;
+    height: 3.4em;
     outline: none;
     border: none;
     color: black;
