@@ -93,7 +93,7 @@ navbar{
     height: 100vh;
     background-repeat:no-repeat;
     background-position:center;
-    overflow-x: hidden;
+    
 }
 .main h3 {
     font-size:clamp(2.5rem, 4.2rem + 0.5vw, 4.2rem);
