@@ -93,6 +93,7 @@ navbar{
     height: 100vh;
     background-repeat:no-repeat;
     background-position:center;
+    overflow-y:hidden;
     
 }
 .main h3 {
@@ -273,7 +274,7 @@ section div a{
 }
 .about .bt2{
     font-size: inherit;
-    width: 9em;
+    width: 8em;
     height: 3.3em;
     outline: none;
     border: none;
